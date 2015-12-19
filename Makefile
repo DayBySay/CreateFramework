@@ -9,7 +9,7 @@ FW_DIR_RES:=${FW_DIR}/Resoursec
 FW_DIR_HEAD:=${FW_DIR}/Headers
 FW_DIRS:=${FW_DIR_RES} ${FW_DIR_HEAD}
 
-all:
+all: HOGEFuga.framework
 
 HOGEFuga.framework: libHOGEFuga.a
 	mkdir -p ${FW_DIRS}
