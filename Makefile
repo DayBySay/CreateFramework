@@ -31,3 +31,4 @@ libHOGEFugaPhonesimulator.a:
 
 clean:
 	rm *.a
+	rm -rf *.framework
