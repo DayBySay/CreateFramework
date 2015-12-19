@@ -29,6 +29,7 @@
 		3AC355CA1C25A6B80002562C /* HOGEFuga.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HOGEFuga.h; sourceTree = "<group>"; };
 		3AC355D31C25A7850002562C /* HOGEFugaService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HOGEFugaService.h; sourceTree = "<group>"; };
 		3AC355D41C25A7850002562C /* HOGEFugaService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HOGEFugaService.m; sourceTree = "<group>"; };
+		3AC355D81C25B0590002562C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +65,7 @@
 				3AC355CA1C25A6B80002562C /* HOGEFuga.h */,
 				3AC355D31C25A7850002562C /* HOGEFugaService.h */,
 				3AC355D41C25A7850002562C /* HOGEFugaService.m */,
+				3AC355D81C25B0590002562C /* Info.plist */,
 			);
 			path = HOGEFuga;
 			sourceTree = "<group>";
