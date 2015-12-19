@@ -1,13 +1,13 @@
 XCODEBUILD?=$(shell which xcodebuild)
 TARGET_NAME?=HOGEFuga
 LIB_NAME:=lib${TARGET_NAME}.a
-PROJECT_NAME?=${TARGET_NAME}.xcodeproj
+PROJECT_NAME:=${TARGET_NAME}.xcodeproj
 BUILD_DIR:=./
 CONFIGURATION?=Release
-FW_DIR?=${TARGET_NAME}.framework
-FW_DIR_RES?=${FW_DIR}/Resoursec
-FW_DIR_HEAD?=${FW_DIR}/Headers
-FW_DIRS?=${FW_DIR_RES} ${FW_DIR_HEAD}
+FW_DIR:=${TARGET_NAME}.framework
+FW_DIR_RES:=${FW_DIR}/Resoursec
+FW_DIR_HEAD:=${FW_DIR}/Headers
+FW_DIRS:=${FW_DIR_RES} ${FW_DIR_HEAD}
 
 all:
 
