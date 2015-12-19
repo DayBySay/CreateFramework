@@ -4,8 +4,18 @@ LIB_NAME:=lib${TARGET_NAME}.a
 PROJECT_NAME?=${TARGET_NAME}.xcodeproj
 BUILD_DIR:=./
 CONFIGURATION?=Release
+FW_DIR?=${TARGET_NAME}.framework
+FW_DIR_RES?=${FW_DIR}/Resoursec
+FW_DIR_HEAD?=${FW_DIR}/Headers
+FW_DIRS?=${FW_DIR_RES} ${FW_DIR_HEAD}
 
 all:
+
+HOGEFuga.framework: libHOGEFuga.a
+	mkdir -p ${FW_DIRS}
+	cp ${TARGET_NAME}/*.h ${FW_DIR_HEAD}/.
+	cp ${TARGET_NAME}/Info.plist ${FW_DIR_RES}/.
+	cp $^ ${FW_DIR}/${TARGET_NAME}
 
 libHOGEFuga.a: libHOGEFugaPhoneos.a libHOGEFugaPhonesimulator.a
 	lipo -create -output $@ $^
