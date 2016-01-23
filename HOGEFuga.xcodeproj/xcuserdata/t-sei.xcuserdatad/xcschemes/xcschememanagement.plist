@@ -9,10 +9,20 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>UseHogefugaApplication.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>3AC355C61C25A6B80002562C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3ACD6F601C53C7DC00647A7F</key>
 		<dict>
 			<key>primary</key>
 			<true/>

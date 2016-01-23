@@ -9,6 +9,12 @@
 /* Begin PBXBuildFile section */
 		3AC355CB1C25A6B80002562C /* HOGEFuga.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3AC355CA1C25A6B80002562C /* HOGEFuga.h */; };
 		3AC355D51C25A7850002562C /* HOGEFugaService.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AC355D41C25A7850002562C /* HOGEFugaService.m */; };
+		3ACD6F641C53C7DC00647A7F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACD6F631C53C7DC00647A7F /* AppDelegate.swift */; };
+		3ACD6F661C53C7DC00647A7F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACD6F651C53C7DC00647A7F /* ViewController.swift */; };
+		3ACD6F691C53C7DC00647A7F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3ACD6F671C53C7DC00647A7F /* Main.storyboard */; };
+		3ACD6F6B1C53C7DC00647A7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3ACD6F6A1C53C7DC00647A7F /* Assets.xcassets */; };
+		3ACD6F6E1C53C7DC00647A7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3ACD6F6C1C53C7DC00647A7F /* LaunchScreen.storyboard */; };
+		3ACD6F741C53C7F600647A7F /* HOGEFuga.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ACD6F731C53C7F600647A7F /* HOGEFuga.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -30,6 +36,14 @@
 		3AC355D31C25A7850002562C /* HOGEFugaService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HOGEFugaService.h; sourceTree = "<group>"; };
 		3AC355D41C25A7850002562C /* HOGEFugaService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HOGEFugaService.m; sourceTree = "<group>"; };
 		3AC355D81C25B0590002562C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3ACD6F611C53C7DC00647A7F /* UseHogefugaApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UseHogefugaApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3ACD6F631C53C7DC00647A7F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3ACD6F651C53C7DC00647A7F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3ACD6F681C53C7DC00647A7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3ACD6F6A1C53C7DC00647A7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3ACD6F6D1C53C7DC00647A7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3ACD6F6F1C53C7DC00647A7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3ACD6F731C53C7F600647A7F /* HOGEFuga.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = HOGEFuga.framework; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +54,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3ACD6F5E1C53C7DC00647A7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ACD6F741C53C7F600647A7F /* HOGEFuga.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -47,6 +69,7 @@
 			isa = PBXGroup;
 			children = (
 				3AC355C91C25A6B80002562C /* HOGEFuga */,
+				3ACD6F621C53C7DC00647A7F /* UseHogefugaApplication */,
 				3AC355C81C25A6B80002562C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -55,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				3AC355C71C25A6B80002562C /* libHOGEFuga.a */,
+				3ACD6F611C53C7DC00647A7F /* UseHogefugaApplication.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -68,6 +92,20 @@
 				3AC355D81C25B0590002562C /* Info.plist */,
 			);
 			path = HOGEFuga;
+			sourceTree = "<group>";
+		};
+		3ACD6F621C53C7DC00647A7F /* UseHogefugaApplication */ = {
+			isa = PBXGroup;
+			children = (
+				3ACD6F731C53C7F600647A7F /* HOGEFuga.framework */,
+				3ACD6F631C53C7DC00647A7F /* AppDelegate.swift */,
+				3ACD6F651C53C7DC00647A7F /* ViewController.swift */,
+				3ACD6F671C53C7DC00647A7F /* Main.storyboard */,
+				3ACD6F6A1C53C7DC00647A7F /* Assets.xcassets */,
+				3ACD6F6C1C53C7DC00647A7F /* LaunchScreen.storyboard */,
+				3ACD6F6F1C53C7DC00647A7F /* Info.plist */,
+			);
+			path = UseHogefugaApplication;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -90,16 +128,37 @@
 			productReference = 3AC355C71C25A6B80002562C /* libHOGEFuga.a */;
 			productType = "com.apple.product-type.library.static";
 		};
+		3ACD6F601C53C7DC00647A7F /* UseHogefugaApplication */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3ACD6F721C53C7DC00647A7F /* Build configuration list for PBXNativeTarget "UseHogefugaApplication" */;
+			buildPhases = (
+				3ACD6F5D1C53C7DC00647A7F /* Sources */,
+				3ACD6F5E1C53C7DC00647A7F /* Frameworks */,
+				3ACD6F5F1C53C7DC00647A7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UseHogefugaApplication;
+			productName = UseHogefugaApplication;
+			productReference = 3ACD6F611C53C7DC00647A7F /* UseHogefugaApplication.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		3AC355BF1C25A6B80002562C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "Hoge, inc.";
 				TargetAttributes = {
 					3AC355C61C25A6B80002562C = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					3ACD6F601C53C7DC00647A7F = {
 						CreatedOnToolsVersion = 7.2;
 					};
 				};
@@ -110,6 +169,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 3AC355BE1C25A6B80002562C;
 			productRefGroup = 3AC355C81C25A6B80002562C /* Products */;
@@ -117,9 +177,23 @@
 			projectRoot = "";
 			targets = (
 				3AC355C61C25A6B80002562C /* HOGEFuga */,
+				3ACD6F601C53C7DC00647A7F /* UseHogefugaApplication */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3ACD6F5F1C53C7DC00647A7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ACD6F6E1C53C7DC00647A7F /* LaunchScreen.storyboard in Resources */,
+				3ACD6F6B1C53C7DC00647A7F /* Assets.xcassets in Resources */,
+				3ACD6F691C53C7DC00647A7F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3AC355C31C25A6B80002562C /* Sources */ = {
@@ -130,7 +204,35 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3ACD6F5D1C53C7DC00647A7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ACD6F661C53C7DC00647A7F /* ViewController.swift in Sources */,
+				3ACD6F641C53C7DC00647A7F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3ACD6F671C53C7DC00647A7F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3ACD6F681C53C7DC00647A7F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3ACD6F6C1C53C7DC00647A7F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3ACD6F6D1C53C7DC00647A7F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		3AC355CE1C25A6B80002562C /* Debug */ = {
@@ -231,6 +333,37 @@
 			};
 			name = Release;
 		};
+		3ACD6F701C53C7DC00647A7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = UseHogefugaApplication/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.hoge.UseHogefugaApplication;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3ACD6F711C53C7DC00647A7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = UseHogefugaApplication/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.hoge.UseHogefugaApplication;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -248,6 +381,15 @@
 			buildConfigurations = (
 				3AC355D11C25A6B80002562C /* Debug */,
 				3AC355D21C25A6B80002562C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3ACD6F721C53C7DC00647A7F /* Build configuration list for PBXNativeTarget "UseHogefugaApplication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3ACD6F701C53C7DC00647A7F /* Debug */,
+				3ACD6F711C53C7DC00647A7F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
