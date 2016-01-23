@@ -7,15 +7,17 @@ CONFIGURATION?=Release
 FW_DIR:=${TARGET_NAME}.framework
 FW_DIR_RES:=${FW_DIR}/Resoursec
 FW_DIR_HEAD:=${FW_DIR}/Headers
-FW_DIRS:=${FW_DIR_RES} ${FW_DIR_HEAD}
+FW_DIR_MOD:=${FW_DIR}/Modules
+FW_DIRS:=${FW_DIR_RES} ${FW_DIR_HEAD} ${FW_DIR_MOD}
 
 all: HOGEFuga.framework
 
-HOGEFuga.framework: libHOGEFuga.a
+HOGEFuga.framework: libHOGEFuga.a module.modulemap
 	mkdir -p ${FW_DIRS}
 	cp ${TARGET_NAME}/*.h ${FW_DIR_HEAD}/.
 	cp ${TARGET_NAME}/Info.plist ${FW_DIR_RES}/.
-	cp $^ ${FW_DIR}/${TARGET_NAME}
+	cp module.modulemap ${FW_DIR_MOD}/.
+	cp $< ${FW_DIR}/${TARGET_NAME}
 
 libHOGEFuga.a: libHOGEFugaPhoneos.a libHOGEFugaPhonesimulator.a
 	lipo -create -output $@ $^

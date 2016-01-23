@@ -1,0 +1,6 @@
+framework module HOGEFuga {
+    umbrella "Headers"
+
+    export *
+    module * { export * }
+}
