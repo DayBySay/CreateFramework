@@ -1,5 +1,5 @@
 framework module HOGEFuga {
-    umbrella "Headers"
+    umbrella header "HOGEFuga.h"
 
     export *
     module * { export * }
