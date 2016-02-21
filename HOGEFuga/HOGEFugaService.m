@@ -8,10 +8,17 @@
 
 #import "HOGEFugaService.h"
 
+
+@import AdSupport;
+
 @implementation HOGEFugaService
 
 + (void)show {
     NSLog(@"hogehoge");
+}
+
++ (NSString *)ADID {
+    return [[ASIdentifierManager sharedManager] advertisingIdentifier].UUIDString;
 }
 
 @end
