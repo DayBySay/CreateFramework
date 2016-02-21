@@ -11,5 +11,6 @@
 @interface HOGEFugaService : NSObject
 
 + (void)show;
++ (NSString *)ADID;
 
 @end
